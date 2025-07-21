@@ -33,7 +33,7 @@ enableEmoji = true
     # Ideal images are homogenous around the centre and contrasting to the text.
     # see CSS classes: .title-and-description-guard, .blog-title, .blog-description
     # see _index.md header_headline and header_subheadline
-    title_guard = false
+    title_guard = true
 
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
@@ -90,11 +90,6 @@ enableEmoji = true
         url = "mailto:mail@janedoe.com"
         icon = "fa fa-envelope"
 
-    [[params.contacts]]
-        label = "GitHub"
-        value = "github.com/zjedi/hugo-scroll"
-        url = "https://github.com/zjedi/hugo-scroll"
-        icon = "fa-brands fa-github"
 
     # Add additional contacts here!
     # [[params.contacts]]
@@ -103,15 +98,3 @@ enableEmoji = true
     #     url = ""
     #     icon = ""
 
-# Define additional languages
-[languages]
-  [languages.en]
-    weight = 10
-    languageName = "English"
-    contentDir = "content/en"
-
-  [languages.de]
-    title = "Erika Musterfrau - Ernährungshilfe & Kochberatung"
-    weight = 20
-    contentDir = "content/de"
-    languageName = "Deutsch"
