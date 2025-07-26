@@ -27,7 +27,7 @@ enableEmoji = true
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and https://gohugo.io/templates/internal#open-graph.
     # NOT the actual header background image, go to _index.md instead
-    images = ["images/cover-image.jpg"]
+    images = ["images/bees3.jpg"]
 
     # When set true, it creates a visual guard (partially transparent rounded box), preventing non-ideal background images from interfering with title/description headings
     # Ideal images are homogenous around the centre and contrasting to the text.
@@ -38,7 +38,7 @@ enableEmoji = true
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "Lawn to Life - Nutrition Coach & Chef Consultant"
+    title = "Lawn to Life - Native Plants, Real Change"
 
     # The "description" of your website. This is used in the meta data of your generated html.
     description = "Creating pollinator paradises in Oregon"
@@ -59,7 +59,7 @@ enableEmoji = true
     hidedesignbyline = false
 
     # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
-    invertSectionColors = false
+    invertSectionColors = true
 
     # Options used for automatic image generation. see: https://gohugo.io/content-management/image-processing/
     image_options = "webp q90 lanczos photo"
@@ -78,11 +78,11 @@ enableEmoji = true
     [params.meta]
         keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
 
-    [[params.contacts]]
-        label = "phone"
-        value = "+49 1111 555555"
-        url = "tel:+49 1111 555555"
-        icon = "fa fa-phone"
+    # [[params.contacts]]
+    #     label = "phone"
+    #     value = "+49 1111 555555"
+    #     url = "tel:+49 1111 555555"
+    #     icon = "fa fa-phone"
 
     [[params.contacts]]
         label = "email"

@@ -6,50 +6,31 @@ weight: 2
 header_menu: true
 ---
 
-Feature notice: This section displays options to customize title:
+![Long horn bees sleeping on flower bulbs](/images/bees1_static.webp)
 
-- has a normal section title (`title` = "The Services I Offer"),
-- custom welcome screen title (`header_menu_title` = "Services"),
-- custom navigation menu title (`navigation_menu_title` = "My Services").
+### Lawn Removal & Habitat Prep
 
-That is the important part, right? You want to know what I can do for you. This is why I put this right up there into the header menu of the website.
+Out with the grass, in with the good stuff. I’ll remove your lawn and prep the area for a thriving native plant habitat. This includes:
+
+- Turf removal (sheet mulching, or machine, depending on the space)
+- Laying down mulch (from a nursery or free chip drop)
+- Tips and guidance for choosing and planting native species
+
+You’ll be left with a clean, mulched canvas ready for wildflowers, native plants, birds, and bees to move in.
+
+![Wood chips next to wheelbarrow](/images/mulch_static.webp)
 
 ---
 
-### Icons
+### Optional Add-Ons
 
-This theme includes the full set of [Font Awesome v6.6.0 icons](https://fontawesome.com/icons). Use the `{{</* icon */>}}` [shortcode](https://gohugo.io/content-management/shortcodes/) with the respective `name` to use an icon directly in your `.md` files. For example "{{< icon name="envelope" >}}":
+- Native Planting Help:
+  Need a hand getting plants in the ground? I’ll help you place and plant natives to get your habitat growing strong.
 
-```html
-{{</* icon name="envelope" */>}}
-```
+- Starter Garden Plan:
+  I’ll sketch out a simple, custom layout using native plants suited to your space, light, and soil.
 
-If you want to use one of Font Awesome's brand icons—the ones that have a trademark warning and the `fa-brands` class—add `brand=true`. For example "{{< icon name="github" brand=true >}}":
+- Consultation & Site Walk:
+  Not sure where to start? I’ll walk your yard with you, chat through goals, and suggest a game plan, no commitment required.
 
-```html
-{{</* icon name="github" brand=true */>}}
-```
-If you want to use these branded icons in your contact list, use the full class names in your `hugo.toml`:
-
-```toml
-[[params.contacts]]
-  label = "GitHub"
-  value = "github.com/zjedi/hugo-scroll"
-  url = "https://github.com/zjedi/hugo-scroll"
-  icon = "fa-brands fa-github"
-```
-
-### Nutrition Coaching
-
-This is not an easy task.
-You will likely have to pay money for this.
-
-### Chef Consulting
-
-I can raise your table culture!
-
-![Let us get started on a clean slate](images/woman-pouring-juice-on-glass-3184192.jpg)
-
-Want to learn more about my services? See [dedicated page](services) with more details.
-[font-awesome-icons]: https://fontawesome.com/icons
-[hugo-shortcodes]: https://gohugo.io/content-management/shortcodes/
+![Poppy flowers next to garden path](/images/habitat1_static.webp)
