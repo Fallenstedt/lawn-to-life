@@ -15,6 +15,31 @@
     --ul-li-icon: fa-dashcube; /* this sets fa-dashcube as list icon */
     --ul-li-icon: ; /* this sets the default html list icon */
   }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form .contact-field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form .honeypot {
+    display: none !important;
+    position: absolute;
+    left: 100%;
+  }
+
+  .submit-button {
+    color: white;
+    background-color: var(--section-dark-bg-color);
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    float: right;
+  }
 </style>
 
 <!-- Custom CSS via "custom.css"-file
